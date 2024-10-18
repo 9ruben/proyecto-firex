@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplicado a la ventana de Android mientras el proceso está iniciando, cuando el modo oscuro del sistema está activado -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Muestra una pantalla de inicio en la actividad. Se elimina automáticamente cuando
+             el motor de Flutter dibuja su primer cuadro -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Tema aplicado a la ventana de Android tan pronto como se inicia el proceso.
+         Este tema determina el color de la ventana de Android mientras se inicializa tu
+         interfaz Flutter, así como el fondo detrás de tu interfaz Flutter mientras está en ejecución.
+
+         Este tema solo se utiliza a partir de la versión 2 de la integración de Android de Flutter. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permiso para acceder a INTERNET, necesario para el desarrollo.
+         Este permiso permite que la herramienta de Flutter se comunique
+         con la aplicación en ejecución, facilitando la configuración de puntos
+         de interrupción y habilitando la recarga en caliente, entre otras funciones.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

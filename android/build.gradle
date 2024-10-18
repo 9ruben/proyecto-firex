@@ -1,0 +1,18 @@
+allprojects {
+    repositories {
+        google()  // Repositorio de Google
+        mavenCentral()  // Repositorio central de Maven
+    }
+}
+
+rootProject.buildDir = "../build"  // Directorio de construcción del proyecto raíz
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"  // Establece el directorio de construcción para cada subproyecto
+}
+subprojects {
+    project.evaluationDependsOn(":app")  // Asegura que todos los subproyectos dependen de ":app"
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir  // Tarea para limpiar el directorio de construcción del proyecto raíz
+}

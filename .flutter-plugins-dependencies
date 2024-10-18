@@ -1,0 +1,79 @@
+{
+    "info": "Este es un archivo generado; no edites ni lo incluyas en el control de versiones.",
+    "plugins": {
+      "ios": [
+        {
+          "name": "cloud_firestore",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.4.4\\",
+          "native_build": true,
+          "dependencies": ["firebase_core"]
+        },
+        {
+          "name": "firebase_auth",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_auth-5.3.1\\",
+          "native_build": true,
+          "dependencies": ["firebase_core"]
+        }
+        // Agregar más plugins según sea necesario
+      ],
+      "android": [
+        {
+          "name": "cloud_firestore",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.4.4\\",
+          "native_build": true,
+          "dependencies": ["firebase_core"]
+        }
+        // Agregar más plugins según sea necesario
+      ],
+      "macos": [
+        {
+          "name": "cloud_firestore",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.4.4\\",
+          "native_build": true,
+          "dependencies": ["firebase_core"]
+        }
+        // Agregar más plugins según sea necesario
+      ],
+      "linux": [
+        {
+          "name": "flutter_secure_storage_linux",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_secure_storage_linux-1.2.1\\",
+          "native_build": true,
+          "dependencies": []
+        }
+        // Agregar más plugins según sea necesario
+      ],
+      "windows": [
+        {
+          "name": "cloud_firestore",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore-5.4.4\\",
+          "native_build": true,
+          "dependencies": ["firebase_core"]
+        }
+        // Agregar más plugins según sea necesario
+      ],
+      "web": [
+        {
+          "name": "cloud_firestore_web",
+          "path": "C:\\Users\\Admin.DESKTOP-P1IRO12\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\cloud_firestore_web-4.3.2\\",
+          "dependencies": ["firebase_core_web"]
+        }
+        // Agregar más plugins según sea necesario
+      ]
+    },
+    "dependencyGraph": [
+      {
+        "name": "cloud_firestore",
+        "dependencies": ["cloud_firestore_web", "firebase_core"]
+      },
+      {
+        "name": "firebase_auth",
+        "dependencies": ["firebase_auth_web", "firebase_core"]
+      }
+      // Agregar más dependencias según sea necesario
+    ],
+    "date_created": "2024-10-16 21:17:16.895605",
+    "version": "3.24.3",
+    "swift_package_manager_enabled": false
+  }
+  

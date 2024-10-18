@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace version="1.0">
+   <!-- Main workspace file reference -->
+   <FileRef location="self:" />
+   
+   <!-- You can add additional file references or groups here -->
+   <FileRef location="path/to/another/file" />
+   <FileRef location="path/to/yet/another/file" />
+</Workspace>
